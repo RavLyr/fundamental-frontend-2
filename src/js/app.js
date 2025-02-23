@@ -3,7 +3,7 @@ import './components/AppHeader.js';
 import './components/NoteForm.js';
 import './components/NotesGrid.js';
 import './utils/loader.js';
-
+import '../styles/main.css';
 class NotesApp extends HTMLElement {
   constructor() {
     super();
@@ -39,7 +39,3 @@ class NotesApp extends HTMLElement {
     });
   }
 }
-
-customElements.define('notes-app', NotesApp);
-
-document.body.innerHTML = '<notes-app></notes-app>';

@@ -1,0 +1,27 @@
+:root {
+  --primary: #6ba1d8; /* Biru tua */
+  --secondary: #00e1b4; /* Hijau toska */
+  --accent: #3498db; /* Biru terang */
+  --background: #151515; /* Hitam pekat */
+  --card-bg: #1e1e1e; /* Abu-abu gelap untuk card */
+  --text: #ecf0f1; /* Putih keabu-abuan untuk teks */
+  --shadow: rgba(0, 0, 0, 0.3); /* Bayangan halus */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}

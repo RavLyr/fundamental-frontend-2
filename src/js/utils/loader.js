@@ -1,10 +1,10 @@
 class LoadingIndicator extends HTMLElement {
-    connectedCallback() {
-      this.render();
-    }
-  
-    render() {
-      this.innerHTML = `
+  connectedCallback() {
+    this.render();
+  }
+
+  render() {
+    this.innerHTML = `
         <div class="loader">
           <div class="spinner"></div>
         </div>
@@ -31,7 +31,7 @@ class LoadingIndicator extends HTMLElement {
           }
         </style>
       `;
-    }
   }
-  
-  customElements.define('loading-indicator', LoadingIndicator);
+}
+
+customElements.define('loading-indicator', LoadingIndicator);
